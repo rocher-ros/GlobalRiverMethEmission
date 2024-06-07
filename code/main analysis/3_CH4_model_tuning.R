@@ -58,7 +58,7 @@ vars_to_log <- c('CH4mean','uparea','popdens','slop' ,'T_OC', 'T_CACO3', 'T_CASO
 # Select useful variables for the model, some variables were removed due to a high correlation with other ones 
 variables_to_remove <- c('Site_ID','COMID','GPP_yr', 'S_OC', 'S_PH_H2O', 'S_CEC_SOIL', 'S_BS', 'S_TEB', 'pyearRA', "pyearRH", "T_CEC_CLAY",
                          'gpp_month', 'forest', 'S_SILT', 'S_CLAY', 'S_CEC_CLAY', 'S_REF_BULK_DENSITY', 'S_BULK_DENSITY', "lon", "lat",  "S_TEB" ,
-                         'S_CASO4', 'S_CASO4', "S_GRAVEL", "S_CACO3" , "S_ESP", "S_SAND", "S_REF_BULK_DENSITY", "S_CEC_CLAY", "S_CEC_SOIL",
+                         'S_CASO4', 'S_CASO4', "S_GRAVEL", "S_CACO3" , "S_ESP", "S_SAND", "T_REF_BULK_DENSITY", "S_CEC_CLAY", "S_CEC_SOIL",
                          "N_aquaculture", "N_gnpp", "N_load", "N_point",  "N_surface_runoff_agri", "N_surface_runoff_nat" )
 
 
